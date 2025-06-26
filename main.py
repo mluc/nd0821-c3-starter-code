@@ -13,7 +13,7 @@ app = FastAPI(title="Census Income Prediction API")
 @app.get("/")
 async def read_root() -> dict:
     """Root endpoint giving a welcome message."""
-    return {"message": "Welcome!"}
+    return {"message": "Welcome!!!"}
 
 
 # Load the trained model once at startup
