@@ -9,7 +9,7 @@ def test_read_root() -> None:
     """Test the GET / endpoint."""
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"message": "Welcome!"}
+    assert response.json() == {"message": "Welcome!!!"}
 
 
 # Example that should predict "<=50K" (or class 0)
