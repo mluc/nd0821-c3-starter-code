@@ -19,7 +19,7 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 The model predicts whether an individual's annual income exceeds \$50 000 based on UCI Census data features. 
 
 ## Training Data
-* Source: UCI Adult / Census Income dataset (`data/census.csv`).  
+* Source: Census Income dataset (`data/census.csv`).  https://archive.ics.uci.edu/dataset/20/census+income
 * Size: 32,562 rows × 15 columns
 * Split: 80% train / 20% test using `train_test_split()`.
 
